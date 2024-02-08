@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+}
+
+.bg-red-verdana {
+    background-color: rgba(255, 0, 0, 0.3);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+#second-element {
+    color: #0000FF;
+    font-size: 36px;
+}
+
+#fourth-element {
+    background-color: rgba(0, 255, 0, 0.3);
+    font-weight: bold;
+}
