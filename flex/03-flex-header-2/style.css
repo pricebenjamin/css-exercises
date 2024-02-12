@@ -12,24 +12,29 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+}
+
+.header,
+.header .links,
+.header .right-aligned {
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .header .logo,
 .header .links,
-.header .right-aligned {
-  flex: 0 0 auto;
-}
-
-.header .right-aligned {
-  display: flex;
-  margin-left: auto;
-  justify-content: right;
-}
-
+.header li,
+.header .right-aligned,
 .header .notifications,
 .header .profile-image {
   flex: 0 0 auto;
+}
+
+.header .right-aligned {
+  justify-content: right;
+  margin-left: auto;
 }
 
 .profile-image {
@@ -45,7 +50,6 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  padding: 10px;
 }
 
 button {
@@ -64,23 +68,6 @@ a {
 
 ul {
   list-style-type: none;
-  display: flex;
-  align-content: center;
-  gap: 10px;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
-}
-
-li {
-  flex: 0 1 auto;
-  border: 1px solid blue;
-  display: flex;
-  align-content: center;
-}
-
-a {
-  text-align: center;
-  flex: 0 1 auto;
-  border: 1px solid green;
 }
